@@ -1,0 +1,16 @@
+main: kode.party.dev.Main
+commands:
+  party:
+    description: party command
+    aliases: [p]
+    usage: /party invite [플레이어] 플레이어 파티 초대 (파티장 사용)
+           /party leave 현재 파티 탈퇴
+           /party agree [파티 초대장 보낸 플레이어] 파티 참가 수락
+           /party disagree [파티 초대장 보낸 플레이어] 파티 불참가
+           /party disband 현재 파티 삭제
+           /party promote [파티에 있는 플레이어] 다른 플레이어에게 파티장 권한 부여
+           /party list 현재 파티의 플레이어 표시
+           /party help 파티 명령어 사용법 표시
+name: party
+version: 0.0.1
+api-version: 1.12

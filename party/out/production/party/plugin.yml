@@ -1,0 +1,8 @@
+main: kode.party.dev.Main
+commands:
+  party:
+    description: party command
+    aliases: [p]
+name: party
+version: 0.0.1
+api-version: 1.12
